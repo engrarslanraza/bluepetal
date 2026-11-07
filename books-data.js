@@ -57,10 +57,16 @@ window.BLUEPETAL_BOOKS = [
       1,
       1
     ],
-    "back": null,
+    "back": [
+      0.004,
+      0.005,
+      0.996,
+      0.997
+    ],
     "spine": null,
     "ratio": 1.0,
-    "color": "#d58138"
+    "color": "#d58138",
+    "backImage": "assets/books/bubbles-bake-back.jpg"
   },
   {
     "id": "first-christmas",
@@ -419,5 +425,32 @@ window.BLUEPETAL_BOOKS = [
     "spine": null,
     "ratio": 0.98589,
     "color": "#315b36"
+  },
+  {
+    "id": "brave-my-own-way",
+    "title": "Brave in My Own Way",
+    "author": "Helen Hill",
+    "image": "assets/books/brave-my-own-way.jpg",
+    "front": [
+      0.518,
+      0,
+      1,
+      1
+    ],
+    "back": [
+      0,
+      0,
+      0.484,
+      1
+    ],
+    "spine": [
+      0.484,
+      0,
+      0.518,
+      1
+    ],
+    "ratio": 0.964,
+    "color": "#10598e",
+    "credit": "Illustrated by Arslan Raza."
   }
 ];
